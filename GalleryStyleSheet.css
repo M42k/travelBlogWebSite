@@ -67,6 +67,7 @@ footer {
 .main-menu a {
     text-decoration: none;
     color: red;
+    font-size: 16px;
 }
 
 .main-menu a:hover {

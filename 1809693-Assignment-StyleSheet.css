@@ -11,7 +11,7 @@
 
 header {
     text-align: center;
-    font-size: 0.8em;
+    font-size: 16px;
     background-color: lightgray;
 }
 
@@ -149,9 +149,10 @@ footer {
     margin: 20px;
 }
 
-.cornwall:hover {
-    opacity: 0.75;
-}
+    .cornwall:hover {
+        opacity: 0.75;
+        transform: scale(1.05);
+    }
 
 .van-build {
     width: 30%;
@@ -165,9 +166,10 @@ footer {
     position: relative;
 }
 
-.van-build:hover {
-    opacity: 0.75;
-}
+    .van-build:hover {
+        opacity: 0.75;
+        transform: scale(1.05);
+    }
 
 .France {
     width: 30%;
@@ -181,9 +183,10 @@ footer {
     position: relative;
 }
 
-.France:hover {
-    opacity: 0.75;
-}
+    .France:hover {
+        opacity: 0.75;
+        transform: scale(1.05);
+    }
 
 .Spain {
     width: 30%;
@@ -197,9 +200,10 @@ footer {
     position: relative;
 }
 
-.Spain:hover {
-    opacity: 0.75;
-}
+    .Spain:hover {
+        opacity: 0.75;
+        transform: scale(1.05);
+    }
 
 .Portugal {
     width: 30%;
@@ -213,9 +217,10 @@ footer {
     position: relative;
 }
 
-.Portugal:hover {
-    opacity: 0.75;
-}
+    .Portugal:hover {
+        opacity: 0.75;
+        transform: scale(1.05);
+    }
 
 .gallery {
     width: 30%;
@@ -231,6 +236,7 @@ footer {
 
 .gallery:hover {
     opacity: 0.75;
+    transform: scale(1.05);
 }
 
 .place-title a {
@@ -250,7 +256,6 @@ footer {
 
 .place-title a:hover {
     color: black;
-
 }
 
 .gallery-title a {
