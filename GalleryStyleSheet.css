@@ -1,0 +1,75 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-image: url('IMAGES/WELSH FLAG WALLPAPER.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 32px;
+    color: white;
+    font-size:50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    background-image: url('IMAGES/CRUMPLED-PAPER.jpg');
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+    font-size: 0.8em;
+}
+#social-menu > li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.social-menu a {
+    text-decoration: none;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: red;
+}
+
+.main-menu a:hover {
+    text-decoration: underline;
+    color: green;
+}
