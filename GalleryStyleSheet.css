@@ -7,6 +7,25 @@ body, html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+header {
+    text-align: center;
+    font-size: 16px;
+    color: darkslategray;
+    height: 30px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.main-menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 0 0 10px 0;
+    background-color: white;
+}
+
 .header {
     background-image: url('IMAGES/WELSH FLAG WALLPAPER.jpg');
     background-repeat: no-repeat;
@@ -15,14 +34,15 @@ body, html {
     text-align: center;
     padding: 32px;
     color: white;
-    font-size:50px;
+    font-size: 50px;
 }
+
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
-    background-image: url('IMAGES/CRUMPLED-PAPER.jpg');
+    padding: 10px 4px;
+    text-align: center;
 }
 
 .column {
@@ -51,26 +71,111 @@ body, html {
 }
 
 footer {
-    background-color: lightgray;
     text-align: center;
     font-size: 0.8em;
+    color: darkslategray;
 }
-#social-menu > li {
+#menu > li {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 0 20px 0 20px;
 }
 
-.social-menu a {
+#menu a {
     text-decoration: none;
-}
-
-.main-menu a {
-    text-decoration: none;
-    color: red;
+    color: darkslategray;
     font-size: 16px;
 }
 
-.main-menu a:hover {
+#menu a:hover {
     text-decoration: underline;
-    color: green;
+    color: red;
 }
+
+.row a {
+    background-image: url('IMAGES/EC.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    padding: 0 10px 20px 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: darkslategrey;
+    font-size: 16px;
+    position: relative;
+    left: 50%;
+}
+
+.row a:hover {
+    color: forestgreen;
+    text-decoration: underline;
+}
+
+#socialmedia-menu {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+    #socialmedia-menu a {
+        width: 50px;
+        height: 46px;
+        display: inline-block;
+        background-size: 350px 98px;
+    }
+
+.a11yhide {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+}
+
+#ElgrandOC {
+    background-image: url('IMAGES/NISSANLOGO.jpg');
+    width: 50px;
+    height: 46px;
+    background-position: 0 0;
+    background-size: cover !important;
+}
+
+    #ElgrandOC:hover {
+        background-image: url('IMAGES/NISSAN-LOGO-BLACK.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+#instagram {
+    background-image: url('IMAGES/social-media-sprite-sheet.png');
+    width: 50px;
+    height: 46px;
+    background-position: -150px 0;
+    position: relative;
+}
+
+    #instagram:hover {
+        background-position: -150px -46px;
+    }
+
+#facebook {
+    background-image: url('IMAGES/social-media-sprite-sheet.png');
+    width: 50px;
+    height: 46px;
+    background-position: 0 0;
+    position: relative;
+}
+
+    #facebook:hover {
+        background-position: 0 -46px;
+    }
+
+#twitter {
+    background-image: url('IMAGES/social-media-sprite-sheet.png');
+    width: 50px;
+    height: 46px;
+    background-position: -50px 0;
+    position: relative;
+}
+
+    #twitter:hover {
+        background-position: -50px -46px;
+    }
